@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ConnectView } from './views';
+import { ConnectView, MyMoneyView } from './views';
 
 const routes: Routes = [
     {
@@ -11,6 +11,10 @@ const routes: Routes = [
     {
         path: 'connect',
         component: ConnectView
+    },
+    {
+        path: 'my-money',
+        component: MyMoneyView
     }
 ];
 

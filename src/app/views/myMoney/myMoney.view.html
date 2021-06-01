@@ -1,0 +1,14 @@
+<div *ngIf="loading">
+    <h3>1 segundo.. cargando su dinero...</h3>
+</div>
+<div *ngIf="! loading">
+    <h6>Aca está su dinero:</h6>
+    <br />
+    <br />
+    <span>Billetera: {{wallet}}</span>
+    <br />
+    <span>
+        <img src="/assets/imgs/coin.gif" alt="Coins!" width="30" />
+        {{ amount }} ETH
+    </span>
+</div>
