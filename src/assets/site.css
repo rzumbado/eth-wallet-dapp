@@ -1,0 +1,9 @@
+html,
+body.connectView {
+    height: 100%;
+}
+
+body.connectView {
+    align-items: center;
+    background-color: #f5f5f5;
+}
